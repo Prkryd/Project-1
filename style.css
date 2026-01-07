@@ -1,0 +1,57 @@
+/* 1. Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+    background-color: #f4f7f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* 2. Container Layout */
+.container {
+    text-align: center;
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+}
+
+.profile-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%; /* Makes it a circle */
+    border: 3px solid #0070f3;
+    margin-bottom: 15px;
+}
+
+/* 3. Link Styling */
+.links {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px; /* Space between buttons */
+}
+
+.link-card {
+    background: white;
+    color: #333;
+    padding: 15px;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: 600;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    transition: transform 0.2s, background 0.2s;
+}
+
+/* 4. Hover Effect (The "Pro" touch) */
+.link-card:hover {
+    transform: translateY(-3px);
+    background: #0070f3;
+    color: white;
+}
