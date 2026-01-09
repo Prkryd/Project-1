@@ -7,7 +7,8 @@
 }
 
 body {
-    background-color: #f4f7f6;
+    background-image: url(bac.jpg);
+    background-size: contain;
     display: flex;
     justify-content: center;
     align-items: center;
